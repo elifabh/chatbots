@@ -1,0 +1,13 @@
+- **data/qa_pairs.xlsx:** Soru-cevap çiftlerini içeren Excel dosyanız.
+- **data/documents/:** Chatbot'un bilgi alacağı belgeler.
+- **data/faiss.index & data/documents.pkl:** Belge indeksleme ve saklama dosyaları.
+- **src/chatbot.py:** Ana chatbot uygulaması.
+- **src/guardrails_config.yaml:** Guardrails yapılandırma dosyası.
+- **src/utils.py:** Yardımcı fonksiyonlar (dil algılama, çeviri, Excel okuma vb.).
+- **src/document_retrieval.py:** Belge erişimi ve indeksleme.
+- **src/rag.py:** RAG entegrasyonu.
+- **src/web_search.py:** Şirket web sitesinde arama yapma fonksiyonları.
+- **.env:** API anahtarları gibi hassas bilgilerin saklandığı dosya.
+- **.gitignore:** Git'e dahil etmeyeceğiniz dosyaları belirtir.
+- **requirements.txt:** Proje bağımlılıkları.
+- **README.md:** Proje hakkında bilgi.

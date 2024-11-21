@@ -1,0 +1,20 @@
+# src/guardrails_config.yaml
+
+version: "1.0"
+
+guard:
+  id: "CustomChatbotGuard"
+  name: "CustomChatbotGuard"
+  description: "Guardrails for custom chatbot to prevent unwanted outputs and ensure mentorship relevance."
+  validators:
+    - id: "guardrails/profanity_free"
+      on: "$"
+      on_fail: "exception"
+    - id: "guardrails/toxic_language"
+      on: "$"
+      on_fail: "exception"
+      kwargs:
+        threshold: 0.5
+        validation_method: "sentence"
+  output_schema:
+    type: "string"

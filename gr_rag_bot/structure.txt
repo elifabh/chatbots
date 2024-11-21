@@ -1,0 +1,27 @@
+custom_chatbot/
+│
+├── data/
+│   ├── qa_pairs.xlsx
+│   ├── documents/
+│   │   ├── python_baslangic.pdf
+│   │   ├── matematik_temeller.pdf
+│   │   └── egitim_rehberi.pdf
+│   ├── faiss.index
+│   └── documents.pkl
+│
+├── images/
+│   └── (gerekli görseller)
+│
+├── src/
+│   ├── __init__.py
+│   ├── chatbot.py
+│   ├── guardrails_config.yaml
+│   ├── utils.py
+│   ├── document_retrieval.py
+│   ├── rag.py
+│   └── web_search.py
+│
+├── .env
+├── .gitignore
+├── requirements.txt
+└── README.md

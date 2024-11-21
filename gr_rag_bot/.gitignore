@@ -1,0 +1,19 @@
+# Excel dosyalarını hariç tut
+*.xlsx
+*.xls
+
+# Web dosyalarını hariç tut (örneğin, HTML, CSS, JS dosyaları)
+*.html
+*.css
+*.js
+
+# Hassas dosyalar
+.env
+
+# Diğer hariç tutmak istediğiniz dosya veya klasörler
+data/qa_pairs.xlsx
+data/faiss.index
+data/documents.pkl
+data/feedback.log
+images/banner.jpg
+images/logo.png

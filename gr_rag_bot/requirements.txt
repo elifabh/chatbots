@@ -1,0 +1,12 @@
+guardrails
+gradio
+pandas
+langdetect
+googletrans==4.0.0-rc1
+anthropic
+python-dotenv
+faiss-cpu
+sentence-transformers
+pypdf
+beautifulsoup4
+requests
